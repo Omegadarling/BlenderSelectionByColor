@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/icon.webp" width="144" alt="Selection by Color app icon">
+</p>
+
 # Selection by Color
 
 A Blender add-on that clusters a mesh's face colors with k-means and turns each cluster
