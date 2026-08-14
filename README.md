@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/icon.webp" width="144" alt="Selection by Color app icon">
+</p>
+
 # Selection by Color
 
 A Blender add-on that clusters a mesh's face colors with k-means and turns each cluster
@@ -5,6 +9,10 @@ into a vertex group, so you can select geometry by the color it renders as.
 
 Every face lands in exactly one group, and each group is named with the hex value of its
 cluster centroid — e.g. `SBC_1_#C34A2F`.
+
+![Selection by Color clusters rendered face colors and isolates one resulting geometry selection](docs/images/selection-by-color.png)
+
+*Rendered face colors become named, reusable vertex groups that can be recalled as geometry selections.*
 
 - **Blender:** 4.0+
 - **Location:** View3D > Sidebar (`N`) > Color Select
