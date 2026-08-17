@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/icon.webp" width="144" alt="Selection by Color app icon">
+  <img src="docs/images/icon.webp" width="176" alt="Selection by Color app icon">
 </p>
 
 # Selection by Color
@@ -13,6 +13,12 @@ cluster centroid — e.g. `SBC_1_#C34A2F`.
 ![Selection by Color clusters rendered face colors and isolates one resulting geometry selection](docs/images/selection-by-color.png)
 
 *Rendered face colors become named, reusable vertex groups that can be recalled as geometry selections.*
+
+## Actual add-on in Blender
+
+![Blender 5.1 in Edit Mode showing one color cluster selected on a painted mesh while the Selection by Color sidebar lists four generated SBC vertex groups](docs/images/blender-screenshot.png)
+
+*Actual Blender capture: four color clusters have become named `SBC_` vertex groups, and one generated group is recalled as a geometry selection in Edit Mode.*
 
 - **Blender:** 4.0+
 - **Location:** View3D > Sidebar (`N`) > Color Select
